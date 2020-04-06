@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Codex</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>BEM VINDOS AVENTUREIROS (AS)!!!</h1>
+  <h2>Aqui é o ponto de encontro dos forasteiros (as) que querem decifrar uma mensagem que receberam ao longo da jornada
+    ou cifrar mensagens que desejam enviar sem serem descobertos no caminho. Siga em frente no campo de instruções.
+  </h2>
+
+  <p>Instruções</p>
+  <ul>
+    <li>Digite sua mensagem no campo indicado</li>
+    <li>Selecione o número de deslocamento</li>
+    <li>Escolha se quer cifra ou decifrar e clique no botão equivalente</li>
+    <li>Verifique a mensagem na caixa de resultado</li>
+    <li>Siga sua jornada forasteriro (a)!!!</li>
+  </ul>
+
+  <label for="msg"> Insira sua mensagem</label>
+  <input type="text" id="msg"> 
+
+  <p>Defina o deslocamento</p> 
+  <input type="number" id="offset"> 
+  <br>
+  <button id="cifrar">Cifrar</button>
+  <button id="decifrar">Decifrar</button>
+
+  <h3>Resultado</h3>
+  <p id="resultado"></p>
+  
+  <script src="index.js" type="module"></script>
+</body>
 </html>
