@@ -12,7 +12,7 @@ btnCifrar.onclick = function () {
         alert("Verifique se inseriu a mensagem e o valor de deslocamento");
 
     } else {
-        document.getElementById("resultado").innerHTML = cipher.encode(offset.value, mensagem.value);
+        document.getElementById("resultado").innerHTML = cipher.encode(offset.valueAsNumber, mensagem.value);
     }
 
 }
@@ -21,7 +21,7 @@ btnDecifrar.onclick = function () {
     if (mensagem.value == "" || offset.value == "") {
         alert("Verifique se inseriu a mensagem e o valor de deslocamento");
     } else {
-        document.getElementById("resultado").innerHTML = cipher.decode(offset.value, mensagem.value);
+        document.getElementById("resultado").innerHTML = cipher.decode(offset.valueAsNumber, mensagem.value);
     }
 
 }
