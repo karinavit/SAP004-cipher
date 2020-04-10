@@ -5,41 +5,50 @@
   <meta charset="utf-8">
   <title>Codex</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   <header> 
-  <h1>BEM VINDOS AVENTUREIROS (AS)!!!</h1>
-  <h2>Aqui é o ponto de encontro dos forasteiros (as) que querem decifrar uma mensagem que receberam ao longo da jornada
-    ou cifrar mensagens que desejam enviar sem serem descobertos no caminho. <br> Siga em frente no campo de instruções.
-  </h2>
-</header>
+  <header>
+    <h1>BEM VINDOS AVENTUREIROS (AS)!!!</h1>
+    <h2>Aqui é o ponto de encontro dos forasteiros (as) que querem decifrar uma mensagem que receberam ao longo da
+      jornada ou cifrar mensagens que desejam enviar sem serem descobertos no caminho. <br> 
+      Siga em frente no campo de instruções.
+    </h2>
+  </header>
 
-  <p>Instruções</p>
-  <ul>
-    <li>Digite sua mensagem no campo indicado</li>
-    <li>Selecione o número de deslocamento</li>
-    <li>Escolha se quer cifra ou decifrar e clique no botão equivalente</li>
-    <li>Verifique a mensagem na caixa de resultado</li>
-    <li>Siga sua jornada forasteriro (a)!!!</li>
-  </ul>
+  <div class="box">
+  <div class="instrucoes">
+    <p>Instruções</p>
+    <ul>
+      <li>Digite sua mensagem no campo indicado</li>
+      <li>Selecione o número de deslocamento</li>
+      <li>Escolha se quer cifra ou decifrar e clique no botão equivalente</li>
+      <li>Verifique a mensagem na caixa de resultado</li>
+      <li>Siga sua jornada forasteriro (a)!!!</li>
+    </ul>
+  </div>
+  
 
-
+<div class="caixa">
   <label for="msg"> Insira sua mensagem</label>
-  <input type="text" id="msg"> 
+  <input type="text" id="msg">
 
-  <p>Defina o deslocamento</p> 
-  <input type="number" min="0" id="offset"> 
+  <p>Defina o deslocamento</p>
+  <input type="number" min="0" id="offset">
   <br>
   <button id="cifrar">Cifrar</button>
   <button id="decifrar">Decifrar</button>
+</div>
+</div>
 
-  <h3>Resultado</h3>
-  <p id="resultado"></p>
+  <div class="resultado">
+    <h3>Resultado</h3>
+    <p id="resultado"></p>
+  </div>
 
 
-  
   <script src="index.js" type="module"></script>
 </body>
+
 </html>
