@@ -1,9 +1,7 @@
 body {
 background-image: url(medieval1.jpeg);
-font-family: 'MedievalSharp', cursive;
+font-family: 'Crimson Text', serif;
 }
-
-
 
 header {
     background-color:rgba(255, 249, 231, 0.5);
@@ -11,20 +9,40 @@ header {
     flex-direction: column;
     border-radius: 30px;
     width: 98%;
-    font-size: 21px;
+    font-size: 18px;
     text-align: center;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
-
-main {
+.instrucoes {
+    background-color:rgba(255, 249, 231, 0.5);
     display: flex;
-    justify-content: center;
-
+    flex-direction: column;
+    border-radius: 30px;
+    width: 40%;
+    font-size: 20px;
+    text-align: justify;
 }
+
+.box{
+display: flex;
+flex-wrap: center; /*caso a tela fique bem pequena o menu automaticamente ficará abaixo do logo*/ 
+justify-content: center; /* espaço entre as caixas*/ 
+padding: 20px; 
+align-items: center;
+}
+
+.caixa {
+    background-color:rgba(255, 249, 231, 0.5);
+    flex-direction: center;
+    border-radius: 30px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+
 
 #msg{
 border-radius: 4px;
@@ -33,6 +51,20 @@ background: #FFF0F5;
 border: 1px solid;
 padding: 0.3%; 
 }
+
+.resultado {
+    background-color:rgba(255, 249, 231, 0.5);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 98%;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
 
 
 
