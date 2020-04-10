@@ -5,13 +5,16 @@
   <meta charset="utf-8">
   <title>Codex</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
 </head>
 
 <body>
+   <header> 
   <h1>BEM VINDOS AVENTUREIROS (AS)!!!</h1>
   <h2>Aqui é o ponto de encontro dos forasteiros (as) que querem decifrar uma mensagem que receberam ao longo da jornada
-    ou cifrar mensagens que desejam enviar sem serem descobertos no caminho. Siga em frente no campo de instruções.
+    ou cifrar mensagens que desejam enviar sem serem descobertos no caminho. <br> Siga em frente no campo de instruções.
   </h2>
+</header>
 
   <p>Instruções</p>
   <ul>
@@ -22,17 +25,20 @@
     <li>Siga sua jornada forasteriro (a)!!!</li>
   </ul>
 
+
   <label for="msg"> Insira sua mensagem</label>
   <input type="text" id="msg"> 
 
   <p>Defina o deslocamento</p> 
-  <input type="number" id="offset"> 
+  <input type="number" min="0" id="offset"> 
   <br>
   <button id="cifrar">Cifrar</button>
   <button id="decifrar">Decifrar</button>
 
   <h3>Resultado</h3>
   <p id="resultado"></p>
+
+
   
   <script src="index.js" type="module"></script>
 </body>
