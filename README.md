@@ -4,9 +4,10 @@
 
 * [1. Prefácio](#1-prefácio)
 * [2. Sobre o Codex](#2-sobre-o-codex)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+* [3. Definição do Projeto](#3-definiçao-do-projeto)
 * [4. Instalação do Projeto](#4-instalação-do-projeto)
-* [5. Considerações gerais](#5-considerações-gerais)
+* [5. Seu feedback é importante!](#5-seu-feedback-é-importante)
+* [6. Desenvolvido por](#6-desenvolvido-por)
 
 
 ***
@@ -44,7 +45,7 @@ O Codex é voltado para o público que joga RPG - “Role-playing game”( para 
 O Codex consiste em uma página que cifra e decifra mensagens com base na escolha de um deslocamento definido pelo usurário. A principal ideia é de o usuário trazer mais interatividade e diversão para as suas  sessões de jogo. Podendo ser aplicado em qualquer edição de diversos sistemas de RPG, como por exemplo:D&D, Vampire, Gurps, Changeling The Dreaming, entre outros. 
 
 
-## 3. Objetivos de aprendizagem
+## 3. Definição do Projeto
 
 Este projeto teve dois princípios importantes (válidos para o design e código) durante seu desenvolvimento:
 * manter a simplicidade, tanto de usabilidade para o usuário final , como no processo de desenvolvimento do código.
@@ -58,10 +59,10 @@ Esses princípios nortearam a escolha do tema e design de  tela única contendo:
 * botões de cifrar ou decifrar;
 * campo para a exibição do resultado.
 O projeto tem um design clean e intuitivo, acompanhado de instruções práticas para uso na mesma tela. 
-Veja o resultado final clicando aqui
+Veja o resultado final [clicando aqui](https://karinavit.github.io/SAP004-cipher/)
 
 ## 4. Instalação do Projeto
-
+Se deseja instalar o projeto em sua máquina local, utilize as seguintes instruções:
 * Use o Fork para criar um repositório em seu GitHub;
 * Click em "clone or download" e copie o link;
 * No terminal digite "git clone + link copiado" e dê enter;
@@ -74,11 +75,11 @@ Comandos npm
 * npm run start: abrirá uma url no servidor;
 * npm run deploy: publicará seu projeto no GitHub Pages;
 
+## 5. Seu feedback é importante!
 
+Se desejar deixe seu feedback e/ou sugestões para a autora do projeto neste [link](https://forms.gle/16TmKa9A7PxdzXmSA) Google Form, você não precisa se identificar. 
 
-## 5. Considerações gerais
+## 6. Desenvolvido por
 
-Use o alfabeto simples (somente maiúsculas e sem ç):
-
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Projeto desenvolvido por Karina Vitangelo de Moraes (aluna da 4a geração da Laboratoria)
 
