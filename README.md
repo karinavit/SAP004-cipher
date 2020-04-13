@@ -12,7 +12,7 @@
 
 ***
 
-## 1. Prefácio
+## 1. Prefácio:
 Este é o primeiro projeto desenvolvido individualmente pelas alunas da 4a Geração da Laboratoria Brasil (SAP004). 
 O tema do projeto é de escolha da aluna  e o mesmo deve ser desenvolvido com  base na Cifra de César. 
 
@@ -40,12 +40,12 @@ com facilidade e não oferecem muita segurança na comunição, mas a cifra de C
 muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-## 2. Sobre o Codex
+## 2. Sobre o Codex:
 O Codex é voltado para o público que joga RPG - “Role-playing game”( para saber mais [clique aqui](https://pt.wikipedia.org/wiki/Role-playing_game)), onde os principais usuários são os jogadores e mestres de sessões de RPG. 
 O Codex consiste em uma página que cifra e decifra mensagens com base na escolha de um deslocamento definido pelo usurário. A principal ideia é de o usuário trazer mais interatividade e diversão para as suas  sessões de jogo. Podendo ser aplicado em qualquer edição de diversos sistemas de RPG, como por exemplo:D&D, Vampire, Gurps, Changeling The Dreaming, entre outros. 
 
 
-## 3. Definição do Projeto
+## 3. Definição do Projeto:
 
 Este projeto teve dois princípios importantes (válidos para o design e código) durante seu desenvolvimento:
 * manter a simplicidade, tanto de usabilidade para o usuário final , como no processo de desenvolvimento do código.
@@ -61,7 +61,7 @@ Esses princípios nortearam a escolha do tema e design de  tela única contendo:
 O projeto tem um design clean e intuitivo, acompanhado de instruções práticas para uso na mesma tela. 
 Veja o resultado final [clicando aqui](https://karinavit.github.io/SAP004-cipher/)
 
-## 4. Instalação do Projeto
+## 4. Instalação do Projeto:
 Se deseja instalar o projeto em sua máquina local, utilize as seguintes instruções:
 * Use o Fork para criar um repositório em seu GitHub;
 * Click em "clone or download" e copie o link;
@@ -77,9 +77,9 @@ Comandos npm
 
 ## 5. Seu feedback é importante!
 
-Se desejar deixe seu feedback e/ou sugestões para a autora do projeto neste [link](https://forms.gle/16TmKa9A7PxdzXmSA) Google Form, você não precisa se identificar. 
+Se desejar deixe seu feedback e/ou sugestões para a autora do projeto neste [link](https://forms.gle/16TmKa9A7PxdzXmSA) do Google Forms, você não precisa se identificar. 
 
-## 6. Desenvolvido por
+## 6. Desenvolvido por:
 
 Projeto desenvolvido por Karina Vitangelo de Moraes (aluna da 4a geração da Laboratoria)
 
