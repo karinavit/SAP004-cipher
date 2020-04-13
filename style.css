@@ -1,15 +1,16 @@
 body {
 background-image: url(medieval1.jpeg);
-font-family: 'Crimson Text', serif;
+font-family: 'Charm', cursive;
+
 }
 
 header {
-    background-color:rgba(255, 249, 231, 0.5);
+    background-color:rgba(255, 250, 250, 0.75);
     display: flex;
     flex-direction: column;
     border-radius: 30px;
     width: 98%;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     margin-top: 10px;
     margin-left: 10px;
@@ -17,12 +18,12 @@ header {
 }
 
 .instrucoes {
-    background-color:rgba(255, 249, 231, 0.5);
+    background-color:rgba(255, 250, 250, 0.75);
     display: flex;
     flex-direction: column;
     border-radius: 30px;
     width: 40%;
-    font-size: 20px;
+    font-size: 21px;
     text-align: justify;
 }
 
@@ -35,7 +36,7 @@ align-items: center;
 }
 
 .caixa {
-    background-color:rgba(255, 249, 231, 0.5);
+    background-color:rgba(255, 250, 250, 0.75);
     flex-direction: center;
     border-radius: 30px;
     width: 40%;
@@ -53,12 +54,12 @@ padding: 0.3%;
 }
 
 .resultado {
-    background-color:rgba(255, 249, 231, 0.5);
+    background-color:rgba(255, 250, 250, 0.75);
     display: flex;
     flex-direction: column;
     border-radius: 30px;
     width: 98%;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 }
 
